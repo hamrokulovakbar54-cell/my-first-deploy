@@ -1,0 +1,1039 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth
+}
+
+.res {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.ff {
+  opacity: 0.8;
+  background-color: rgb(82, 40, 223);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.job {
+  border-bottom: 2px solid white;
+  font-size: 70px;
+}
+
+.jobb {
+  color: white;
+  font-size: 70px;
+}
+
+.tez {
+  color: white;
+  font-family: sans-serif;
+}
+
+.hala {
+  opacity: 0.8;
+  background-color: rgb(62, 25, 184);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  padding: 50px;
+}
+
+.link {
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.ffp {
+  padding-top: 100px;
+  color: white;
+}
+
+.ssy {
+  background-image: url(./celovek-rabotausii-na-noutbuke-v-kafe-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.nashi {
+  color: white;
+  background-color: rgb(99, 94, 94);
+  height: 500px;
+  font-size: 40px;
+  padding: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nashi h1 {
+  margin-left: 160px;
+}
+
+
+.ded {
+  width: 100px;
+  height: 20px;
+  background-color: white;
+  margin-left: 160px;
+}
+
+
+
+.se {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  padding: 70px;
+  font-size: 20px;
+  transform: translateY(-12px);
+  animation: se 2s ease forwards;
+}
+
+@keyframes se {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.baba {
+  width: 50px;
+  height: 9px;
+  background-color: blue;
+  transform: translateY(-12px);
+  animation: baba 2s ease forwards;
+}
+
+@keyframes baba {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.kartina {
+  width: 1450px;
+  height: 70px;
+  background-color: black;
+}
+
+
+
+
+.kal {
+  opacity: 0.8;
+  background-color: rgb(82, 40, 223);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-image: url(./vstreca-kolleg-predprinimatelei-iz-raznoobraznoi-startap-kompanii-v-professional-nom-zale-na-rabocem-meste.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 40px;
+  padding: 300px;
+}
+
+.moose {
+  width: 100px;
+  height: 30px;
+  background-color: blue;
+}
+
+.rul {
+  padding: 27px;
+  align-items: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.seb {
+  color: black;
+  background-color: white;
+  height: 600px;
+  font-size: 50px;
+  padding: 230px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -100px;
+}
+
+
+.kord {
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+}
+
+.bolish {
+  padding: 27px;
+  align-items: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ruchka {
+
+  /* background-image: url(./e1c78c_7648994396e44d2784a9b52d9261434a.jpg); */
+  /* background-image: url(./e1c78c_9cb23653b9354731abc58fefe75d59af.jpg); */
+  /* background-image: url(./e1c78c_3dfa67f61c474c91af5d35babd32d6be.jpg); */
+  /* background-image: url(./e1c78c_6258cb2399a14df5acb313a79928b124.jpg); */
+  /* background-image: url(./e1c78c_c67fb9021b7d4a45bf8b26e0a7b45057.jpg);
+  background-image: url(./e1c78c_664d8ee810d34d3c9c856b17cf260ea5.jpg);  */
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+  grid-template-rows: repeat(2, 300px);
+  width: 100%;
+}
+
+
+
+
+.chas {
+  background-image: url(./e1c78c_7648994396e44d2784a9b52d9261434a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.chas:hover {
+  transition: 0.5s ease forwards;
+  background-color: blue;
+  opacity: 1;
+}
+
+
+.julotov {
+  width: 500px;
+  height: 300px;
+  background-color: rgba(0, 0, 255, 0.325);
+  position: absolute;
+  bottom: 600px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  top: 2813px;
+}
+
+.julotov:hover {
+  opacity: 1;
+}
+
+.julotov h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 28px;
+}
+
+.julotov p {
+  font-size: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.fac {
+  background-image: url(./e1c78c_9cb23653b9354731abc58fefe75d59af.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.bolishs {
+  width: 500px;
+  height: 300px;
+  background-color: rgba(0, 0, 255, 0.629);
+  position: absolute;
+  bottom: 300px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  top: 3113px;
+}
+
+.bolishs h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 28px;
+}
+
+.bolishs p {
+  font-size: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.bolishs:hover {
+  opacity: 1;
+}
+
+.phons {
+  background-image: url(./e1c78c_3dfa67f61c474c91af5d35babd32d6be.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.jekson {
+  width: 500px;
+  height: 300px;
+  background-color: rgba(0, 0, 255, 0.653);
+  position: absolute;
+  bottom: 1200px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  left: 500px;
+  top: 2813px;
+}
+
+.jekson h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 28px;
+}
+
+.jekson p {
+  font-size: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+.jekson:hover {
+  opacity: 1;
+}
+
+.komp {
+  background-image: url(./e1c78c_6258cb2399a14df5acb313a79928b124.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.trashs {
+  width: 500px;
+  height: 300px;
+  background-color: rgba(0, 0, 255, 0.636);
+  position: absolute;
+  bottom: 900px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  left: 500px;
+  top: 3113px;
+}
+
+.trashs h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 28px;
+}
+
+.trashs p {
+  font-size: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.trashs:hover {
+  opacity: 1;
+}
+
+
+
+.main {
+  background-image: url(./e1c78c_c67fb9021b7d4a45bf8b26e0a7b45057.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.cent {
+  width: 500px;
+  height: 300px;
+  background-color: rgba(0, 0, 255, 0.636);
+  position: absolute;
+  bottom: 1800px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  left: 1000px;
+  top: 2813px;
+}
+
+.cent h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 28px;
+}
+
+.cent p {
+  font-size: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.cent:hover {
+  opacity: 1;
+}
+
+
+
+.banana {
+  background-image: url(./e1c78c_664d8ee810d34d3c9c856b17cf260ea5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.macair {
+  width: 500px;
+  height: 300px;
+  background-color: rgba(0, 0, 255, 0.636);
+  position: absolute;
+  bottom: 1500px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  left: 1000px;
+  top: 3113px;
+}
+
+.macair h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 28px;
+}
+
+.macair p {
+  font-size: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.macair:hover {
+  opacity: 1;
+}
+
+
+.robot:hover {
+  transition: 0.5s ease forwards;
+  background-color: black;
+  opacity: 1;
+}
+
+.pro {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.58);
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+  top: 4790px;
+  left: 120px;
+}
+
+.pro h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 20px;
+}
+
+.pro p {
+  font-size: 13px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.pro:hover {
+  opacity: 1;
+}
+
+.lenova {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.58);
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+  top: 4786px;
+  left: 420px
+}
+
+.lenova h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 20px;
+}
+
+.lenova p {
+  font-size: 13px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.lenova:hover {
+  opacity: 1;
+}
+
+.chas {
+  width: 100%;
+}
+
+.ynger {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.58);
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+  top: 4786px;
+  left: 720px
+}
+
+.ynger h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 20px;
+}
+
+.ynger p {
+  font-size: 13px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.ynger:hover {
+  opacity: 1;
+}
+
+
+
+
+.aura {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.58);
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+  top: 4786px;
+  left: 1020px
+}
+
+.aura h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 20px;
+}
+
+.aura p {
+  font-size: 13px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+.aura:hover {
+  opacity: 1;
+}
+
+
+
+/* .ruchka:hover {
+  ba|
+
+/* 
+.chas {
+  
+  /* background-image: url(./e1c78c_664d8ee810d34d3c9c856b17cf260ea5.jpg);
+  background-image: url(./e1c78c_7648994396e44d2784a9b52d9261434a.jpg);
+  background-image: url(./e1c78c_9cb23653b9354731abc58fefe75d59af.jpg);
+  background-image: url(./e1c78c_3dfa67f61c474c91af5d35babd32d6be.jpg);
+  background-image: url(./e1c78c_6258cb2399a14df5acb313a79928b124.jpg);
+  background-image: url(./e1c78c_c67fb9021b7d4a45bf8b26e0a7b45057.jpg); */
+/* } */
+
+
+.naski {
+  color: black;
+  background-color: white;
+  height: 123vh;
+  font-size: 50px;
+  padding: 160px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tel {
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+}
+
+.paket {
+  padding: 27px;
+  align-items: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.water {
+  width: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 155px);
+  grid-template-rows: repeat(2, 190px);
+  gap: 30px;
+
+}
+
+.surat {
+  width: 200px;
+  margin-left: -100px;
+}
+
+.surat img {
+  width: 100%;
+}
+
+.kor {
+  color: black;
+  background-color: whitesmoke;
+  height: 46vh;
+  font-size: 40px;
+  padding: 110px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.svet {
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+}
+
+.dar {
+  padding: 27px;
+  align-items: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.robot {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(1, 200px);
+  margin: 0 auto;
+}
+
+.blok {
+  width: 300px;
+  height: 200px;
+}
+
+
+.blok img {
+  width: 100%;
+  height: 100%;
+  /* margin-left: -50px; */
+}
+
+
+.butulka h1 {
+  color: white;
+}
+
+
+.butulka {
+  opacity: 1;
+  background-color: blue;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  padding: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-image: url(./sovremennyi-ulicnyi-fon-tokio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 40px;
+  padding: 300px;
+}
+
+.plastik {
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+}
+
+.qq {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+
+.hp {
+  color: black;
+  background-color: white;
+  height: 600px;
+  font-size: 50px;
+  padding: 230px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.karta {
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+  gap: 20px;
+}
+
+.wer {
+  padding: 50px;
+}
+
+input,
+button {
+  width: 100px;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #1c19a1;
+  color: azure;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: blue;
+}
+
+.qas {
+  display: flex;
+  justify-content: center;
+}
+
+
+.fast {
+  gap: 10px;
+}
+
+.shapkaa {
+  width: 320px;
+  height: 33px;
+  font-size: 15px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.shapkaaq {
+  width: 320px;
+  height: 150px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.div {
+  height: 150px;
+}
+
+
+
+/* display: flex;
+  font-size: 10px;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-bottom: 40px;
+} */
+
+
+
+
+
+.ruchka .shag {
+  display: flex;
+  background-color: rgb(66, 63, 63);
+  width: 1450px;
+  height: 200px;
+  justify-content: space-around;
+}
+
+.shag h1 {
+  font-size: 15px;
+  color: white;
+  padding: 100px;
+}
+
+.rf {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.halk {
+  width: 100%;
+  height: 100%;
+}
+
+.lo {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.jk {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+footer {
+  height: 100px;
+  padding: 95px;
+  background-color: rgba(0, 0, 0, 0.626);
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+
+.vidio {
+  width: 40px;
+}
+
+.vidio img {
+  width: 80%;
+}
+
+.podpis {
+  font-size: 19px;
+  color: white;
+}
+
+.pod {
+  width: 100%;
+  height: 100%;
+}
+
+
+#kalas {
+  width: 100%;
+}
+
+.abubakr {
+  width: 20px;
+  height: 20px;
+  margin-left: 1410px;
+  position: fixed;
+  z-index: 1000;
+}
+
+.ios {
+  width: 100%;
+  background-color: grey;
+  color: white;
+  border-radius: 70%;
+  margin-bottom: 5px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.chat-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #3c4e8a;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.chat-widget {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.chat-header {
+  background: #8a7a3c;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  position: relative;
+}
+
+.chat-header .status {
+  font-size: 12px;
+  color: #bdf5bd;
+}
+
+.chat-header .close {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.chat-footer {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.chat-footer input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+}
+
+.chat-footer button {
+  border: none;
+  background: #8a7a3c;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
+@media (max-width:400px) {
+  .ssy {
+    display: block;
+    width: 399px;
+  }
+
+
+
+  .ff {
+    width: 399px;
+    display: block;
+    padding: 20px;
+
+  }
+
+  .job {
+    font-size: 40px;
+  }
+
+  .jobb {
+    font-size: 40px;
+  }
+
+  .nashi {
+    width: 399px;
+    font-size: 15px;
+    padding: 0px;
+  }
+
+  .ded {
+    width: 40px;
+    height: 13px;
+    gap: 9px;
+  }
+
+  .se {
+
+
+    width: 30px;
+  }
+
+  .das {
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: repeat(2, 50px);
+  }
+
+  .kartina {
+    width: 200px;
+    height: 20px;
+  }
+
+  .kal {
+    width: 399px;
+    display: block;
+    font-size: 15px;
+  }
+
+  .seb {
+    width: 399px;
+    display: block;
+    font-size: 15px;
+  }
+
+}
